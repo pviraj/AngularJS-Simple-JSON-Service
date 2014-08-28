@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link href="style.css" rel="stylesheet" />
+    <script data-semver="1.2.22" src="https://code.angularjs.org/1.2.22/angular.js" data-require="angular.js@1.2.x"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-app="plunker">
+    <div ng-controller="MainCtrl">
+      <h1>Angular JSON Service</h1>
+      <ul>
+        <li ng-repeat="address in Addresses">
+          {{ address.HouseNumber }}, {{ address.Street }}, {{ address.Postcode }}
+        </li>
+      </ul>
+      
+      <br>
+      
+      <ul>
+        <li ng-repeat="person in People">
+          <span ng-hide="person.Firstname == null">{{ person.Firstname }},</span>
+          <span ng-hide="person.Middlename == null">{{ person.Middlename }},</span>
+          <span ng-hide="person.Surname == null">{{ person.Surname }}</span>
+        </li>
+      </ul>
+      
+    </div>
+  </body>
+
+</html>
