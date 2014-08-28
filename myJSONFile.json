@@ -1,0 +1,43 @@
+{
+	"IsEnabled": true,
+	"Addresses": {
+		"AddressList": [
+			{
+				"HouseNumber": 201,
+				"Street": "Victoria Lane",
+				"Postcode": "SW1 8ES"
+			},
+			{
+				"HouseNumber": 10,
+				"Street": "Allen Close",
+				"Postcode": "NG2 3AT"
+			},
+			{
+				"HouseNumber": 57,
+				"Street": "Thomas Street",
+				"Postcode": "DR12 6TE"
+			}
+		],
+		"SomeOtherNode": 2
+	},
+	"Names": {
+		"People": [
+			{
+				"Firstname": "Judy",
+				"Middlename": "Mary",
+				"Surname": "Close"
+			},
+			{
+				"Firstname": "Mike",
+				"Middlename": null,
+				"Surname": "Holt"
+			},
+			{
+				"Firstname": "Dave",
+				"Middlename": "Allen",
+				"Surname": "Kimp"
+			}
+		],
+		"SomeOtherNode": 2
+	}
+}
